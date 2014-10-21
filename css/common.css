@@ -1,0 +1,110 @@
+.custom-search {
+	background-color: #428bca;
+	border-color: #428bca;
+	color: white;
+}
+.custom-search:hover {
+	background-color: #428bca;
+	border-color: #428bca;
+	color: white;
+}
+.custom-search-group {
+	/* For Safari 3.1 to 6.0 */
+    -webkit-transition-property: width;
+    -webkit-transition-duration: 0.5s;
+    /* Standard syntax */
+    transition-property: width;
+    transition-duration: 0.5s;
+}
+.custom-search-group:hover {
+	width:50%;
+	/* For Safari 3.1 to 6.0 */
+    -webkit-transition-property: width;
+    -webkit-transition-duration: 0.5s;
+    /* Standard syntax */
+    transition-property: width;
+    transition-duration: 0.5s;
+}
+.custom-alert {
+	width: 30%;
+	position: fixed;
+	right: 10px;
+	top: 60px;
+}
+.list-group-item {
+	height:47px;
+}
+
+#playground{
+	margin-top: 75px;
+}
+
+.debug{
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.todo-filter {
+	margin-bottom: 25px;
+}
+
+.todo-filter>li>a{
+	padding: 8px 12px;
+	font-size: 12px;
+}
+
+#todoAdd {
+	//margin-left: 40px;
+}
+
+.todoField{
+	padding-left: 5px;
+	font-size: 20px;
+}
+
+#newTodoField{
+	margin-right:0px;
+	margin-top:0px;
+	margin-left:15px;
+	margin-bottom: 30px;
+	width: 55%;
+	float:left;
+}
+
+#todoSubmit{
+	width: 20%;
+	float:right;
+}
+
+#todoDoneSubmit {
+	width: 20%;
+	float: right;
+	margin-left:5px;
+}
+
+.todoTask{
+	margin-bottom: 20px;
+}
+
+.todoName{
+	font-size: 20px;
+	border-bottom: 1px lightgray solid;
+	padding-bottom:5px;
+}
+
+.edit-in-place span {
+  cursor: pointer;
+}
+
+.edit-in-place input {
+  display: none;
+}
+
+.edit-in-place.active span {
+  display: none;
+}
+
+.edit-in-place.active input {
+  display: inline-block;
+}
